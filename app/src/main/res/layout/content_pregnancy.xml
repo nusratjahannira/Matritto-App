@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffe4e1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myapp.pregnancyapp.Pregnancy"
+    tools:showIn="@layout/activity_pregnancy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mother"
+        android:background="#ffffff"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="গর্ভাবস্থার বিপদ চিহ্ন"
+        android:textColor="#131845"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="রক্তপাত"
+        android:textColor="#131845"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="গর্ভাবস্থায় প্রাথমিকভাবে,রক্তপাত দেখা দিতে পারে।প্রথম তিনমাস রক্তস্রাব দেখা দিতে পারে যা গর্ভপাত নির্দেশ করতে পারে।পরে আপনার গর্ভাবস্থায় রক্তপাত হয়ে গর্ভপাত এর দিকে যেতে পারে। তাই আপনি যদি কোনও রক্তপাত দেখতে পান তবে আপনার ডাক্তার দ্বারা আপনার পরীক্ষা করা উচিত।"
+        android:textAlignment="gravity"
+        android:textColor="#131845"
+        android:textStyle="italic"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="গুরুতর বমি বমি ভাব এবং বমি"
+        android:textAlignment="gravity"
+        android:textColor="#131845"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="গর্ভাবস্থায় বমি হওয়া খুবই স্বাভাবিক ব্যাপার,তবে তা যদি বেশি মাত্রায় হয় আর আপনি যদি কিছুই খেতে না পারেন তবে আপনি অপুষ্টিতে ভুগবেন ও দুর্বল হয়ে যাবেন,যা আপনার ও আপনার বাচ্চার জন্য খতিকর।তাই আপনার যদি বমি বেশি মাত্রায় হয় তবে আপনি ডাক্তারের সাথে যোগাযোগ করুন।"
+        android:textAlignment="gravity"
+        android:textColor="#131845"
+        android:textStyle="italic"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ইনফ্লুয়েনজার লক্ষণ"
+        android:textAlignment="gravity"
+        android:textColor="#131845"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="আমাদের বিশেষজ্ঞরা বলছেন যে গর্ভবতী মহিলাদের ইনফ্লুয়েনজার টিকা সময় মতন নেয়া উচিত।কারন এই রোগের কারনে মহিলারা গুরতর অসুস্থ হতে পারে যা তার ও তার বাচ্চার জন্য ক্ষতিকর।আপনি যদি এই রোগে আক্রান্ত হন,তবে আপনি বাইরে বের হবেন না।কারন এতে অন্যন্যরা আকান্ত হতে পারে।দ্রুত ডাক্তারকে ফোন করুন এবং ব্যবথা নিন।"
+        android:textAlignment="gravity"
+        android:textColor="#020d6c"
+        android:textStyle="italic"
+        android:textSize="15dp" />
+    </LinearLayout>
+
+
+</ScrollView>

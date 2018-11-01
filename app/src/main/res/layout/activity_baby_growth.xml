@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/baby_growth"
+    android:padding="10dp"
+    android:layout_alignParentTop="true"
+
+    tools:context="com.myapp.pregnancyapp.BabyGrowth">
+
+    <Button
+
+        android:id="@+id/button1Id"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:background="#fdffff"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="গর্ভাবস্থায় শিশুর শারীরিক বৃদ্ধি"
+        android:textColor="#118f68"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

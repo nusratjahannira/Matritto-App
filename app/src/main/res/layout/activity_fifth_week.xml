@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f774a0"
+    android:layout_alignParentTop="true"
+    tools:context="com.myapp.pregnancyapp.FifthWeek">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text52"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#faf6fa"
+        android:paddingTop="10dp"
+        android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+        android:textStyle="bold"
+        android:textColor="#282360"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+
+    <Button
+
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="142dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="110dp"
+        android:background="#da3344"
+        android:text=" ভিডিও "
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="FifthButton"/>
+
+    <Button
+        android:id="@+id/next5"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="142dp"
+        android:layout_marginLeft="0dp"
+        android:background="#fa8888"
+        android:text="৬ষ্ঠ সপ্তাহ "
+        android:textColor="#16040d"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+
+</ScrollView>

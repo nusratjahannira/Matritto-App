@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myapp.pregnancyapp.DrsSuggestn2"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_drs_suggestn2">
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:background="#b43574"
+        android:text="গর্ভাবস্থার বিপদ চিহ্ন"
+        android:textColor="#f7f1f4"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="riskButton"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="#b43574"
+        android:text="গর্ভাবস্থার কি কি করা উচিত নয় "
+        android:textColor="#f7f1f4"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="dontdobutton"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:background="#b43574"
+        android:text="গর্ভাবস্থার কি কি করা উচিত"
+        android:textColor="#f7f1f4"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="dobutton"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+    <Button
+        android:id="@+id/emergencyId"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:padding="10dp"
+        android:background="#f20509"
+        android:drawableLeft="@drawable/call"
+        android:text="@string/emergency_button"
+        android:textSize="15sp"
+        android:textColor="#0a0005"
+        android:textStyle="bold"
+        android:onClick="emergencybutton"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+
+</RelativeLayout>

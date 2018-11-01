@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#e96455"
+    android:layout_alignParentTop="true"
+
+    tools:context="com.myapp.pregnancyapp.GrowthInfo">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="গর্ভাবস্থায় শিশুর শারীরিক বৃদ্ধি সম্পর্কে জানুন "
+            android:paddingLeft="70dp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#0e0e0e"
+            android:textSize="15sp"
+            />
+
+        <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="১ম সপ্তাহ  "
+        android:textStyle="bold"
+        android:textColor="#0a084b"
+        android:textSize="15sp"
+            android:paddingLeft="150dp"
+        android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:paddingLeft="150dp"
+            android:text="২য় সপ্তাহ  "
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="৩য় সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="৪র্থ সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text51"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text=" ৫ম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text52"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#faf6fa"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="৬ষ্ঠ সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" গর্ভধারণের এই সপ্তাহ খুবই গুরুত্বপূর্ণ কারন এই সময়ে আপনার গর্ভের সন্তানের অনেক পরিবর্তন আসতে শুরু করে। এই সময়ে ultrasound এ বাচ্চার আকৃতি ধরা পরে। বাচ্চা এই সময়ে ৫-৬ মিলিমিটার লম্বা .."
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text="৭ম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" লম্বায় আপনার গর্ভের সন্তান এখন প্রায় ১ সেন্টিমিটার। আপনার গর্ভের ভ্রুনটি আস্তে আস্তে ছোট্ট একজন মানুষে পরিনত হচ্ছে। এ সময়ে হাড়ের গঠন শুরু হয়। এ সপ্তাহে শিশুর মস্তিষ্কের বিকাশ দ্রুত ... "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="৮ম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f4f1f3"
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text19"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text="১০ম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text=" ১১তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text22"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#faf6fa"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/tex23"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="১২তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text25"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text="১৩তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text26"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text27"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="১৪তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text28"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f4f1f3"
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text29"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text="১৫তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text30"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text31"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text=" ১৬তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text32"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#faf6fa"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="১৭তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text34"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text35"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text="১৮তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text36"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text37"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="১৯তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text38"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f4f1f3"
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text39"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text="২০তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text40"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text41"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text=" ২১তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text42"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#faf6fa"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text43"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="২২তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text44"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text45"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="২৩তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text46"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text47"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="২৪তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text48"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f4f1f3"
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text49"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="২৫তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text50"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text61"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text=" ২৬তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text62"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#faf6fa"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text53"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="২৭তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text54"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text55"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="২৮তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text56"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text57"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="২৯তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text58"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f4f1f3"
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text59"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="৩০তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text60"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text71"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text=" ৩১তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text72"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#faf6fa"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text73"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="৩২তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text74"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text75"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="৩৩তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text76"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text77"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="৩৪তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text78"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f4f1f3"
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text79"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="৩৫তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text80"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text81"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text=" ৩৬তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text82"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#faf6fa"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহে আপনি গর্ভধারণের উপসর্গ গুলো সর্ম্পকে পরিচিত হতে শুরু করবেন। এই সপ্তাহে বাচ্চার হৃদপিন্ড, পাকস্থলি, লিঙ্গ ও কিডনির গঠন শুরূ হয়।  এই সময় ভ্রুন দ্রুত বাড়তে থাকে। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text83"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="৩৭তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text94"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f7f3f5"
+            android:paddingTop="10dp"
+            android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text85"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="৩৮তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text86"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/text87"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:text="৩৯তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text88"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f4f1f3"
+            android:paddingTop="10dp"
+            android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text89"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#252f73"
+            android:paddingTop="10dp"
+            android:text="৪০ সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#f7f1f4"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text90"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f5eef2"
+            android:paddingTop="10dp"
+            android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+            android:textStyle="bold"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

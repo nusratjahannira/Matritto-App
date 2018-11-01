@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myapp.pregnancyapp.AlarmActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="অ্যালার্মের নাম দিন "
+        android:inputType="textPersonName"/>
+    <Button
+        android:id="@+id/add_button_layout"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="#1783a1"
+        android:textSize="15sp"
+        android:text="সেট অ্যালার্ম"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="217dp" />
+
+        <Button
+            android:id="@+id/btn_set_time_layout"
+            android:layout_width="329dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/add_button_layout"
+            android:layout_marginTop="78dp"
+            android:text="সময় সেট করুন "
+            android:background="#1783a1"
+            android:textColor="#fbfbfc"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_alignLeft="@+id/add_button_layout" />
+</RelativeLayout>

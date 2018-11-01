@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homeId"
+        android:title="হোম"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/shareId"
+        android:title="শেয়ার"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/feedbackId"
+        android:title="ফিডব্যাক"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_email"/>
+
+    <item android:id="@+id/AboutusId"
+        android:title="অ্যাপ সম্পর্কে"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_about_us"/>
+
+
+</menu>

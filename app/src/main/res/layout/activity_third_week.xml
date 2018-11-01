@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f774a0"
+    android:layout_alignParentTop="true"
+    tools:context="com.myapp.pregnancyapp.ThirdWeek">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#f774a0"
+        android:paddingTop="10dp"
+        android:text=" অভিনন্দন! এই সপ্তাহে আপনাকে officially গর্ভবতী বলা যায়। এ সময় বংশগতির অন্যতম নিয়ন্ত্রক উপাদান জীনগত গঠন (genetic makeup)  সম্পূর্ণ হয় এবং শিশুর লিঙ্গ নির্ধারিত হয়। গর্ভধারণ শুরুর তিন দিনের মধ্যে নিষিক্ত ডিম্বাণু খুব দ্রুত বিভাজিত হয়ে বহুকোষে পরিণত হয়। তা ফ্যালোপিয়ান নালি (Fallopian tube) দিয়ে জরায়ুতে  গিয়ে পৌঁছে এবং জরায়ুগাত্রে সংযুক্ত হয়। এ সময় ভ্রুণের পুষ্টি যোগানোর জন্য জরায়ুর অন্তরাচ্ছদক অঙ্গ গর্ভফুলের (placenta) গঠন শুরু হয়। "
+        android:textStyle="bold"
+        android:textColor="#282360"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+        <Button
+            android:layout_width="98dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginTop="210dp"
+            android:background="#da3344"
+            android:text="ভিডিও"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:onClick="ThirdButton"
+            />
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:background="#fa8888"
+            android:text="৪র্থ সপ্তাহ "
+            android:textColor="#16040d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

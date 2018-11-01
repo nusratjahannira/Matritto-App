@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfd2dddf"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.myapp.pregnancyapp.ThirdTrimester">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:src="@drawable/third_trimester"
+        android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/Thirdtext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="খাদ্য তালিকা "
+            android:textColor="#363f7c"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:src="@drawable/food_chart" />
+    <TextView
+        android:id="@+id/Thirdtext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="এ সময়ে উপোরক্ত তালিকা মতই খাদ্য চালিয়ে যান। পানি খান প্রচুর। এ সময়টাতে বেশি কোষ্ঠকাঠিন্য হবার সম্ভাবনা থাকে। আদা চা অনেক মহিলাদের এই কোষ্ঠকাঠিন্য থেকে মুক্তি দেয়। তবে এ  সময় আঁশযুক্ত ফল ও শাকসবজি খাওয়া উচিত। এসব খাবারে অনেক আঁশ রয়েছে যা পায়খানা নরম করে ও কোষ্ঠকাঠিন্য দূর করে। খুব ঝাল ও ভাজা পোড়া খাবার এড়িয়ে চলুন। এসব খাবার খেলে এসিডিটি হয়।"
+        android:textColor="#000312"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    </LinearLayout>
+
+
+</ScrollView>

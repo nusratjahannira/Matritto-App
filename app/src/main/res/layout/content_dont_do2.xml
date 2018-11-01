@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffe4e1"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myapp.pregnancyapp.DontDo2"
+    tools:showIn="@layout/activity_dont_do2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/dont_do_raw"
+                android:layout_marginLeft="70dp"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="130dp"
+                android:text="খাবার :"
+                android:textColor="#0e0e0e"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="আপনার গর্ভাবস্থায় কি করতে হবে না সে সম্পর্কে অনেক কঠোর নিয়ম নেই তবে কিছু কাজ আপনি করবেন না যা আপনার ক্রমবর্ধমান শিশুর স্বাস্থ্য এবং নিরাপত্তার ঝুঁকি হয়। "
+                android:textColor="#131845"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="কাঁচা ডিম
+পনির
+কাঁচা বা আধা সিদ্ধ মাংস
+অপ্রাস্তুরিত ফলের রস
+কফি
+সুশি
+এলকোহল সমৃদ্ধ খাবার
+অপ্রাস্তুরিত বা কাঁচা দুধ
+কাঁচা বা আধা পাকা পেঁপে
+আঙ্গুর"
+                android:textColor="#131845"
+                android:textStyle="italic"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="130dp"
+                android:text="পরিশ্রম :"
+                android:textColor="#0e0e0e"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="গর্ভাবস্থায় একজন মহিলা কতোটা পরিশ্রম করবেন তা সঠিকভাবে বলা সম্ভব নয়৷ সাধারণভাবে বলা যায়, মা গর্ভাবস্থায় তার স্বাভাবিক সংসারের সব কাজই করবেন৷ তবে প্রথম তিন মাস এবং শেষের দু-এক মাস খুব ভারী বা পরিশ্রমের কাজ না করাই ভালো৷ যেমন- কাপড় কঁাচা, ভারী জিনিস তোলা, পানি আনা, ধান ভানা ইত্যাদি না করা৷ গর্ভাবস্থায় সিঁড়িতে ওঠা-নামার সময় যথেষ্ট সতর্ক থাকা উচিত৷"
+                android:textColor="#131845"
+                android:textStyle="italic"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="130dp"
+                android:text="পোশাক :"
+                android:textColor="#0e0e0e"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="গর্ভাবস্থায় যাতে পেটের ওপর চাপ কম পড়ে এবং চলাফেরায় আরাম পাওয়া যায় সেজন্য ঢিলেঢালা পোশাক পরা উচিত৷ অন্তর্বাস প্রয়োজনানুপাতে ঢিলা থাকতে হবে৷ এ সময় সিনথেটিক ব্যবহার না করে সুতির পোশাক পরাই ভালো৷"
+                android:textColor="#131845"
+                android:textStyle="italic"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

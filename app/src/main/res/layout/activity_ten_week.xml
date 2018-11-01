@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f774a0"
+    android:layout_alignParentTop="true"
+
+    tools:context="com.myapp.pregnancyapp.TenWeek">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text200"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#f5eef2"
+        android:paddingTop="10dp"
+        android:text="অভিনন্দন!! আপনি যদি জানতে পারেন যে আপনি গর্ভবতী তাহলে আপনি অনেকের চাইতে ভাগ্যবতী।কারণ অনেকেই মাত্র ৪ সপ্তাহে গর্ভধারণের সুসংবাদটি পান না। এ পর্যায়ে শিশুর অঙ্গ-সংস্থানের উন্নয়ন শুরু হয় যা অবশেষে মুখমন্ডল, ঘাড় ও গলা গঠন করে। হৃদপিন্ড এবং রক্তবাহী শিরা ও ধমনীর উন্নয়নও চলতে থাকে। ফুসফুস, পাকস্থলি ও যকৃতের ঊন্নয়ন শুরু হয়। এই সময় আপনার ভ্রুনের সাইজ একটি পপি বীচির সমান থাকে। এর দুটো স্তর থাকে যা থেকে তার সব অঙ্গ প্রত্যঙ্গ বিকশিত হয়।
+আপনার শিশু এখন এক ইঞ্চির ১/২৫ ভাগ দৈর্ঘের। আপনি তার চোখ, কান, বা মুখ দেখতে পাবেন না,আপনার শিশুর দেখার, শোনার, বলার এবং শারীরিক কাঠামো গঠন শুরু হয়েছে। আপনার ছোট ভ্রূণ টি খুব তাড়াতাড়ি হাতের আঙুল এবং পায়ের আঙুলে পরিণত হবে।  "
+        android:textStyle="bold"
+        android:textColor="#282360"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+        <Button
+
+            android:layout_width="98dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="110dp"
+            android:background="#da3344"
+            android:text=" ভিডিও "
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:onClick="tenButton"/>
+
+        <Button
+            android:id="@+id/next10"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:background="#fa8888"
+            android:text="১১তম সপ্তাহ "
+            android:textColor="#16040d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f774a0"
+    android:layout_alignParentTop="true"
+    tools:context="com.myapp.pregnancyapp.ThirteenWeek">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text25"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:paddingTop="10dp"
+            android:text="১৩তম সপ্তাহ  "
+            android:paddingLeft="150dp"
+            android:textStyle="bold"
+            android:textColor="#0a084b"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:id="@+id/text26"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#f2e9ee"
+            android:paddingTop="10dp"
+            android:text=" এই সপ্তাহেও আপনার শরীরে গর্ভসঞ্চার হয়নি। তবে এই সপ্তাহেই আপনার ডিম্বাণু উৎপন্ন হবে যা আপনার সঙ্গীর শুক্রাণুর সাথে মিলিত হবে এবং প্রানের সঞ্চার করবে। এই ডিম্বানু নিষিক্ত হয়ে জরায়ুর দেয়ালে গেড়ে বসবে। সেখানে ধীরে ধীরে কোষ বিভাজনের মাধ্যমে আস্ত-মানব সন্তানের আদল পাবে। "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#282360"
+            android:textSize="15sp" />
+    <Button
+
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="142dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="110dp"
+        android:background="#da3344"
+        android:text=" ভিডিও "
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="thirteenButton"/>
+
+    <Button
+        android:id="@+id/next13"
+        android:layout_width="98dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="142dp"
+        android:layout_marginLeft="0dp"
+        android:background="#fa8888"
+        android:text="১৪তম সপ্তাহ "
+        android:textColor="#16040d"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+
+    </ScrollView>

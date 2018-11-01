@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f774a0"
+    android:layout_alignParentTop="true"
+    tools:context="com.myapp.pregnancyapp.NineWeek">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text20"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#f5eef2"
+        android:paddingTop="10dp"
+        android:text="এই সপ্তাহ থেকে আপনার শরীরের ভ্রুনটি ধীরে ধীরে মানবশিশুর রুপ নিতে থাকে। ভ্রুন এর লেজটি এসময় মিলিয়ে যায়। এখন ফিটাসের আকার একটি জলপাইয়ের সমান এবং মাথা থেকে তলা পর্যন্ত এর দৈর্ঘ্য প্রায় ২২ মি.মি. এবং অজন প্রায় ২ গ্রাম। এসময় মুখমণ্ডল তৈরি হচ্ছে এবং খুব ছোট আকারে জিহ্বাটি আকৃতি লাভ করছে। কানগুলোর ভেতর এবং বাইরের আলাদা কাঠামো দেখা যাচ্ছে এবং অন্তঃকর্ণে যে বিশেষ তরল থাকে তা জমা হতে শুরু করেছে। এই বিশেষ তরলটিই শারীরিক ভারসাম্যের বোধ তৈরি করে। এরমধ্যে চোখগুলো কিছুটা বড় হয়েছে এবং নিজস্ব বর্ণ ধারণ করেছে, কিন্তু ওগুলো এখনো বন্ধ।
+
+যদিও ১৫ সপ্তাহের আগে আলট্রাসাউন্ড এ শিশুর লিঙ্গ নির্ধারণ সম্ভব নয় কিন্তু এ সপ্তাহ থেকেই তার যৌনাঙ্গ রূপ নিতে থাকে। শিশুর গোড়ালি ও কব্জি এখন অনেকটাই বিকশিত। তার হাত ও পায়ের আঙ্গুল অনেকটাই পরিপূর্ণ। এতদিন আপনার ডিম্বাশয় থেকেই শিশুর বেড়ে উঠার প্রয়োজনীয় প্রজেস্টেরন হরমোন উৎপন্ন হতো। কিন্তু এ সপ্তাহে আপনার প্লাসেন্টা (placenta) পুরোপুরি কর্মক্ষম এবং এখন প্লাসেন্টাই হরমোন উৎপন্ন করে এবং আপনার রক্ত থেকে পুষ্টি ও অক্সিজেন শোষণ করে শিশুর জন্য সরবরাহ করে।  "
+        android:textStyle="bold"
+        android:textColor="#282360"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+        <Button
+
+            android:layout_width="98dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="110dp"
+            android:background="#da3344"
+            android:text=" ভিডিও "
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:onClick="nineButton"/>
+
+        <Button
+            android:id="@+id/next9"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:background="#fa8888"
+            android:text="১০ম সপ্তাহ "
+            android:textColor="#16040d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</ScrollView>

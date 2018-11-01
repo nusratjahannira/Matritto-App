@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f774a0"
+    android:layout_alignParentTop="true"
+    tools:context="com.myapp.pregnancyapp.SeventeenWeek">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/text33"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:text="১৭তম সপ্তাহ  "
+        android:paddingLeft="150dp"
+        android:textStyle="bold"
+        android:textColor="#0a084b"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:id="@+id/text34"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#f7f3f5"
+        android:paddingTop="10dp"
+        android:text=" প্রথম সপ্তাহের এ সময়টিতে আপনি ঠিক গর্ভবতী নন, কারন গর্ভসঞ্চারের ব্যাপারটি আপনার মাসিক শেষের দুই সপ্তাহ পর ঘটে থাকে। প্রতিবার মাসিক এর পরেই আপনার শরীর অনেক জটিল হরমনাল পরিবর্তনের ভেতর দিয়ে যায়। এটা হয় শরীরকে গর্ভধারণের জন্য প্রস্তুত করতে। তাই মাসিক এর প্রথম দিনকেই গর্ভধারণের প্রথম দিন হিসেবে ধরা হয়।
+বেশীরভাগ মায়েদের ক্ষেত্রেই মাসিক শুরুর ১২-১৪ দিনের মধ্যেই ডিম্বাণু উৎপন্ন হয়। "
+        android:textStyle="bold"
+        android:textColor="#282360"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+        <Button
+
+            android:layout_width="98dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="#da3344"
+            android:text=" ভিডিও "
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:onClick="seventeenButton"/>
+
+        <Button
+            android:id="@+id/next17"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:background="#fa8888"
+            android:text="১৮তম সপ্তাহ "
+            android:textColor="#16040d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

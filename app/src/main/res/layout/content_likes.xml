@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#14baa6"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myapp.pregnancyapp.LikesActivity"
+    tools:showIn="@layout/activity_likes">
+
+    <ImageButton
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/place"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="VRbutton"/>
+
+    <ImageButton
+        android:id="@+id/fb_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button31"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="FbButton"
+        android:src="@drawable/facebook"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <ImageButton
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fb_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:onClick="Musicbutton"
+        android:src="@drawable/music"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+
+</RelativeLayout>

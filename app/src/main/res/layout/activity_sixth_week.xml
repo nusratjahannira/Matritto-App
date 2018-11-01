@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#f774a0"
+    android:layout_alignParentTop="true"
+    tools:context="com.myapp.pregnancyapp.SixthWeek">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text14"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#f7f3f5"
+        android:paddingTop="10dp"
+        android:text=" গর্ভধারণের এই সপ্তাহ খুবই গুরুত্বপূর্ণ কারন এই সময়ে আপনার গর্ভের সন্তানের অনেক পরিবর্তন আসতে শুরু করে। এই সময়ে ultrasound এ বাচ্চার আকৃতি ধরা পরে। বাচ্চা এই সময়ে ৫-৬ মিলিমিটার লম্বা .."
+        android:textStyle="bold"
+        android:textColor="#282360"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"/>
+        <Button
+
+            android:layout_width="98dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="110dp"
+            android:background="#da3344"
+            android:text=" ভিডিও "
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:onClick="sixthButton"/>
+
+        <Button
+            android:id="@+id/next6"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginLeft="0dp"
+            android:background="#fa8888"
+            android:text="৭ম সপ্তাহ "
+            android:textColor="#16040d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</ScrollView>

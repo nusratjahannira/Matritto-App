@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.pregnancyapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InfoActivity" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="খাবার এর পরামর্শ " />
+        <activity
+            android:name=".FirstTrimester"
+            android:label="প্রথম তিন মাস" />
+        <activity
+            android:name=".SecondTrimester"
+            android:label="দ্বিতীয় তিন মাস" />
+        <activity
+            android:name=".ThirdTrimester"
+            android:label="শেষ তিন মাস" />
+        <activity
+            android:name=".BabyGrowth"
+            android:label="শিশুর শারীরিক বৃদ্ধি" />
+        <activity
+            android:name=".GrowthInfo"
+            android:label="বিস্তারিত " />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Pregnancy"
+            android:label="গর্ভাবস্থায় বিপদ সমূহ"
+            android:parentActivityName=".DrsSuggestn2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.pregnancyapp.DrsSuggestn2" />
+        </activity>
+        <activity
+            android:name=".DrsSuggestn2"
+            android:label="ডাক্তার এর পরামর্শ"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.pregnancyapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DoPregnancy"
+            android:label="গর্ভাবস্থায় করণীয় "
+            android:parentActivityName=".DrsSuggestn2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.pregnancyapp.Pregnancy" />
+        </activity>
+        <activity
+            android:name=".DontDo2"
+            android:label="সতর্কতাসমূহ"
+            android:parentActivityName=".DrsSuggestn2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.pregnancyapp.DrsSuggestn2" />
+        </activity>
+        <activity
+            android:name=".FirstWeek"
+            android:label="১ম সপ্তাহ " />
+        <activity
+            android:name=".SecondWeek2"
+            android:label="২য় সপ্তাহ " />
+        <activity
+            android:name=".ThirdWeek"
+            android:label="৩য় সপ্তাহ " />
+        <activity
+            android:name=".ForthWeek"
+            android:label="৪র্থ সপ্তাহ " />
+        <activity
+            android:name=".FifthWeek"
+            android:label="৫ম সপ্তাহ " />
+        <activity
+            android:name=".SixthWeek"
+            android:label="৬ষ্ঠ সপ্তাহ " />
+        <activity
+            android:name=".SevenWeek"
+            android:label="৭ম সপ্তাহ " />
+        <activity
+            android:name=".EightWeek"
+            android:label="৮ম সপ্তাহ " />
+        <activity
+            android:name=".NineWeek"
+            android:label="৯ম সপ্তাহ " />
+        <activity
+            android:name=".TenWeek"
+            android:label="১০ম সপ্তাহ " />
+        <activity android:name=".ElevenWeek" />
+        <activity android:name=".TwelveWeek" />
+        <activity android:name=".ThirteenWeek" />
+        <activity android:name=".ForteenWeek" />
+        <activity android:name=".FifteenWeek" />
+        <activity android:name=".Sixteenweek" />
+        <activity android:name=".SeventeenWeek" />
+        <activity android:name=".EighteenWeek" />
+        <activity android:name=".NineteenWeek" />
+        <activity android:name=".TwentyWeek" />
+        <activity android:name=".TwentyoneWeek" />
+        <activity android:name=".TwentytwoWeek" />
+        <activity android:name=".TwentythreeWeek" />
+        <activity android:name=".TwentyfourWeek" />
+        <activity android:name=".TwentyfiveWeek" />
+        <activity android:name=".TwentysevenWeek" />
+        <activity android:name=".TwentyeightWeek" />
+        <activity android:name=".TwentynineWeek" />
+        <activity android:name=".ThirtyWeek" />
+        <activity android:name=".ThirtyoneWeek" />
+        <activity android:name=".ThirtytwoWeek" />
+        <activity android:name=".ThirtythreeWeek" />
+        <activity android:name=".ThirtyfourWeek" />
+        <activity android:name=".ThirtyfiveWeek" />
+        <activity android:name=".ThirtysixWeek" />
+        <activity android:name=".ThirtySevWeek" />
+        <activity android:name=".ThirtyeigWeek" />
+        <activity android:name=".ThirtynineWeek" />
+        <activity android:name=".FourtyWeek" />
+        <activity android:name=".DatePredict" />
+        <activity
+            android:name=".EmergencyCall"
+            android:label="জরুরি কল" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="ফিডব্যাক " />
+        <activity
+            android:name=".AlarmActivity"
+            android:label="অ্যালার্ম সেট">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Alarm" />
+
+        <activity
+            android:name=".LikesActivity"
+            android:label="@string/title_activity_likes"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.pregnancyapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ViewPlace2"
+            android:label="@string/title_activity_view_place2"
+            android:parentActivityName=".LikesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapp.pregnancyapp.LikesActivity" />
+        </activity>
+        <activity android:name=".AboutActivity"></activity>
+    </application>
+
+</manifest>

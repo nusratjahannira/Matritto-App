@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfd2dddf"
+    android:paddingTop="10dp"
+    tools:context="com.myapp.pregnancyapp.SecondTrimester">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:src="@drawable/second_trimester"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:id="@+id/Sectext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#faf9fa"
+        android:paddingTop="10dp"
+        android:text="অতিরিক্ত ২০০-৩০০ ক্যালরি খাবার বেশি খাওয়া প্রয়োজন এ সময়ে। সাধারণত একজন প্রাপ্ত বয়স্ক মেয়ে বা মহিলার দৈনিক ২২০০ ক্যালরি খাদ্য প্রয়োজন হয়। তাই আপনি গর্ভবতী হলে দৈনিক ২৫০০ ক্যালরি খাওয়া প্রয়োজন।ক্যালসিয়াম পাওয়া যায় দুধ, দই, আইসক্রিম, চীজ ইত্যাদিতে। সাধারণত এ সময়ে আয়রণ ৪০ মিলিগ্রাম লাগে দৈনিক। এজন্য আয়রণ ট্যাবলেট খাবেন ডাক্তারের পরামর্শমত। "
+        android:textColor="#030915"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/Sectext3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#faf9fa"
+        android:text=" এ সময়ে ভিটামিন ডি ও ওমেগা ৩ ফ্যাটি এসিড খেতে হয় প্রচুর। কারণ এ সময়ে ব্রেন বা মস্তিষ্কের ও চোখের গঠন হয় আর এই গঠন সঠিকভাবে হওয়ার জন্য এই পুষ্টিগুলো খুব দরকার। ভিটামিন ডি পাবেন সূর্যের আলোতে, দুধে, দইয়ে, বাদামি চালে ও গমে। ওমেগা ৩ এর জন্য সামুদ্রিক মাছ ও খাবার খেতে হবে। তিসির তেলে ওমেগা ৩ থাকে। সালাদে ২ চামচ তিসির তেল মিশিয়ে সালাদ খাবেন। প্রচুর মাছ খাবেন। এ সময়ে আয়োডিন খাবেন পর্যাপ্ত পরিমাণে।"
+        android:textColor="#020620"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:padding="10dp"/>
+    </LinearLayout>
+
+</ScrollView>

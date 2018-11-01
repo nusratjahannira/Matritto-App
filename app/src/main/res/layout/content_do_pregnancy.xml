@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myapp.pregnancyapp.DoPregnancy"
+    tools:showIn="@layout/activity_do_pregnancy"
+    android:orientation="vertical"
+    android:background="#ffe4e1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/dont_do_raw"
+        android:background="#ffffff"
+        />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="গর্ভাবস্থায় স্বাস্থ্য  সেবাদানকারীর দ্বারা কমপক্ষে ৩ বার স্বাস্থ্য পরীক্ষা করাতে হবে।
+গর্ভাবস্থায় ২টি টিটি টিকা নিতে হবে।
+দৈনিক স্বাভাবিকের চেয়ে সাধ্যমত বেশি খাবার খেতে হবে।
+
+
+গর্ভবতী মহিলাকে নিয়মিত প্রচুর পরিমাণে পানি খেতে হবে।
+গর্ভবতী মহিলাকে পরিস্কার পরিচ্ছন্ন থাকতে হবে। তাকে নিয়মিত গোসলও করতে হবে।
+দুপুরের খাবারের পর কমপক্ষে ১-২ ঘন্টা বিশ্রাম নিতে হবে।"
+            android:textColor="#131845"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="10dp"
+    tools:context="com.myapp.pregnancyapp.Register">
+    <EditText
+        android:hint="নাম"
+        android:background="#e8e8ec"
+        android:padding="10dp"
+        android:textColorHint="#0e0404"
+        android:id="@+id/usernameId"
+        android:textColor="#0e0404"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        />
+    <EditText
+        android:hint="ই-মেইল "
+        android:textColorHint="#0e0404"
+        android:id="@+id/emailId"
+        android:textColor="#0e0404"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#e8e8ec" />
+
+    <EditText
+        android:hint="ফোন নাম্বার "
+        android:textColorHint="#0e0404"
+        android:id="@+id/phn_numId"
+        android:textColor="#0e0404"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#e8e8ec"
+
+        />
+    <EditText
+        android:hint="সর্বশেষ মাসিকের তারিখ"
+        android:textColorHint="#0e0404"
+        android:id="@+id/pId"
+        android:textColor="#0e0404"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#e8e8ec"
+        />
+
+    <EditText
+        android:hint="পাসওয়ার্ড "
+        android:textColorHint="#0e0404"
+        android:id="@+id/passwordId"
+        android:textColor="#0e0404"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#e8e8ec"
+
+
+        />
+    <EditText
+        android:hint="পুনরায় পাসওয়ার্ড দিন "
+        android:textColorHint="#0e0404"
+        android:id="@+id/reTypePassId"
+        android:textColor="#0e0404"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#e8e8ec"
+        />
+    <Button
+        android:id="@+id/register_btn"
+
+        android:text="জমা দিন"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+</LinearLayout>

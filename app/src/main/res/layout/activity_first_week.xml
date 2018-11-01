@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#ffffff"
+    android:layout_alignParentTop="true"
+    app:layout_behavior = "@string/appbar_scrolling_view_behavior"
+    tools:context="com.myapp.pregnancyapp.FirstWeek">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:src="@drawable/threeweek"/>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/first_week_text"
+            android:textColor="#282360"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <Button
+
+            android:layout_width="68dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="142dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="12dp"
+            android:background="#da3344"
+            android:text=" ভিডিও "
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:onClick="FirstButton"/>
+    </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="top">
+
+            <Button
+                android:id="@+id/next1"
+                android:layout_width="36dp"
+                android:layout_height="25dp"
+                android:background="#fffefe"
+                android:text="১"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next2"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next3"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next4"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৪"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next5"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৫"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next6"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৬"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next7"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৭"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next8"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৮"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next9"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৯"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next10"
+                android:layout_width="34dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১০"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <Button
+            android:id="@+id/next11"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            android:text="১১"
+            android:textColor="#16040d"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="top">
+            />
+
+            <Button
+                android:id="@+id/next12"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১২"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/next13"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১৩"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next14"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১৪"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next15"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১৫"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next16"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১৬"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next17"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১৭"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next18"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১৮"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next19"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="১৯"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next20"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২০"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <Button
+            android:id="@+id/next21"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            android:text="২১"
+            android:textColor="#16040d"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+            <Button
+            android:id="@+id/next22"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            android:text="২২"
+            android:textColor="#16040d"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="top">
+            <Button
+                android:id="@+id/next23"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২৩"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next24"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২৪"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next25"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২৫"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next26"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২৬"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next27"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২৭"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next28"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২৮"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next29"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="২৯"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next30"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩০"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <Button
+            android:id="@+id/next31"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            android:text="৩১ "
+            android:textColor="#16040d"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+            <Button
+            android:id="@+id/next32"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            android:text="৩২"
+            android:textColor="#16040d"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+            <Button
+            android:id="@+id/next33"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:background="#ffffff"
+            android:text="৩৩"
+            android:textColor="#16040d"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:gravity="top">
+            <Button
+                android:id="@+id/next34"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩৪"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next35"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩৫"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next36"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩৬"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next37"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩৭"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next38"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩৮"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next39"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৩৯"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next40"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:text="৪০"
+                android:textColor="#16040d"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

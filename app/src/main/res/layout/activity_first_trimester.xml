@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#bfd2dddf"
+    android:layout_alignParentTop="true"
+    tools:context="com.myapp.pregnancyapp.FirstTrimester">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:src="@drawable/frst_trimester"
+                android:layout_marginLeft="60dp"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fafafa"
+                android:paddingTop="10dp"
+                android:text="এ সময়ে আপনার দৈনন্দিন সাধারণ খাবারের সাথে অতিরিক্ত ১ গ্লাস দুধ ও ২ টি অতিরিক্ত রুটি খেতে পারেন। এছাড়া তাজা ফলমূল ও শাক সবজি খাবেন। ধূমপান এ সময়ে একদমই করবেন না। কারণ, এতে করে কম ওজনের বাচ্চা জন্মানোর ও বাচ্চা নষ্ট হয়ে যাবার সম্ভাবনা বেশি থাকে। এসময় প্রচুর পানি খাবেন। ৮ থেকে ১০ গ্লাস। ক্যাফেইন সমৃদ্ধ খাদ্য কম খাবেন। কেননা এতে ঘুম কম হবার ও পানিশূন্যতা হবার সম্ভাবনা বেশি থাকে। তাই পানীয় খেতে চাইলে প্রচুর ফলের জুস, দই, লাচ্ছি খান এবং অবশ্যই এসব বাড়িতে তৈরি করে খাবেন। বাইরের খাবার যত পারবেন তত কম খাবেন।  "
+                android:textColor="#010713"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:background="#f9f5f7"
+                android:text=" এ সময় কিছু জিনিস অবশ্যই দরকার হয় তার মাঝে একটি হল, ফোলেট বা ফলিক এসিড। ফোলেট কিছু প্রাকৃতিক খাবারে পাওয়া যায়। যেমন -করল্লা, ক্যাপসিকাম, ব্রকলি, মেথি, পুদিনা, ধনিয়া, বাদাম ও কিসমিস। কিন্তু শুধু মাত্র খাবার খেয়ে এর চাহিদা পূরণ হয়না। তাই সাপ্লিমেন্টারি ফুড বা ওষুধ হিসেবে ফলিক এসিড খেতে হয় ডাক্তারের পরামর্শ মতে। সাধারণত ডাক্তাররা ফলিক এসিড ৪০০ মাইক্রোগ্রাম খেতে দেন দৈনিক।ফলিক এসিডের অভাব হলে বাচ্চার spina bifida হয় অথবা neural tube এ সমস্যা হয়। "
+                android:textColor="#010312"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding="10dp"/>
+    </LinearLayout>
+
+</ScrollView>
